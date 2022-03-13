@@ -6,3 +6,4 @@ draft: false
 Second day of spring break! Yay!
 Yesterday I had two hours of TKD practice with my dad and Instructor Bugsy.
 We worked hard on perfecting our competition form - which my dad and I 
+will be performing together. I am so excited!!
