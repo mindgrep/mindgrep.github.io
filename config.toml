@@ -24,19 +24,7 @@ profilePicture = "images/big-chungus.png"
   url = "/"
 
   [[menu.main]]
-  name = "Pages"
-  weight = 200
-  identifier = "pages"
-  url = "/page/"
-
-  [[menu.main]]
   name = "Posts"
   weight = 200
   identifier = "posts"
   url = "/posts/"
-
-  [[menu.main]]
-  name = "About"
-  weight = 300
-  identifier = "about"
-  url = "/about/"
