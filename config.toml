@@ -1,11 +1,23 @@
-baseURL = 'http://localhost:1313/'
+baseURL = 'https://mindgrep.github.io/'
 languageCode = 'en-us'
-title = "Suki's blog"
+title = "Sukis blog"
+
+defaultContentLanguage = "en"
+
+[taxonomies]
+  subject = "subjects"
+  teacher = "teachers"
 
 [module]
   [[module.imports]]
     path = "github.com/lxndrblz/anatole"
     disable = false
+  [[module.imports]]
+    path = "github.com/devcows/hugo-universal-theme"
+    disable = true
+  [[module.imports]]
+    path = "github.com/theNewDynamic/gohugo-theme-ananke"
+    disable = true
 
 [params]
 title = "I'm Suki"
@@ -15,6 +27,12 @@ This is my blog!
 I like to write about the things I find fun and enjoy!
 """
 profilePicture = "images/big-chungus.png"
+
+
+# For hugo-universal theme
+logo = "images/big-chungus.png"
+date_format = "2 January, 2006"
+style = "marsala"
 
 [menu]
   [[menu.main]]
@@ -28,3 +46,15 @@ profilePicture = "images/big-chungus.png"
   weight = 200
   identifier = "posts"
   url = "/posts/"
+
+  [[menu.main]]
+  name = "Teachers"
+  weight = 200
+  identifier = "teachers"
+  url = "/teachers/"
+
+  [[menu.main]]
+  name = "Subjects"
+  weight = 200
+  identifier = "subjects"
+  url = "/subjects/"
